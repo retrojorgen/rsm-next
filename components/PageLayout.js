@@ -5,7 +5,7 @@ const Layout = (props) => {
   return (
     <div>
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css?family=Anton|Raleway');
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900');
         html, body {
           min-width: 100%;
           min-height: 100%;
@@ -16,10 +16,13 @@ const Layout = (props) => {
           box-sizing: border-box;
         }
         body {
-          font-family: 'Raleway', sans-serif;
+          font-family: 'Roboto', sans-serif;
+          color: white;
+        }
+        a, a:visited, a:active, a:hover {
+          color: white;
         }
         h1,h2,h3,h4,h5,h6 {
-          font-family: 'Anton', sans-serif;
         }
       `}</style>
       <Head>
