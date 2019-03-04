@@ -331,5 +331,23 @@ export default () => (
         </div>
       </div>
     </div>
+    <div className="green-background container">
+      <div className="row">
+        <div className="container-illustration">
+          <img src="/static/retrospillmessen-bilde-ngwt.jpg" />
+        </div>
+        <div className="info-container">
+          <h3 className="container-header">
+            NEO GEO World Championship med fete premier
+          </h3>
+          <h4>Slossespill-turneringen kommer tilbake</h4>
+          <p>I fjor fikk vi besøk av Neo Geo-gjengen for første gang, og nå kommer de tilbake med en ny turnering. På lørdag (22. juni) skal det kjempes om finaleplass i Neo Geo World Championship i Hong Kong. Du kan vinne en plass på Retrospillmessen!</p>
+          <p>Det vil foregå to turneringer; en i spillet King of Fighters 98 (Nintendo Switch / Neo Geo), og en i King Of Fighters XIV (PS4).</p>
+          <p>Du kan melde deg på turneringene <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fchallonge.com%2Fevents%2Fngwt2norway%3Ffbclid%3DIwAR1Zmx5Tac2o-uWIE3OgKUJVeyMAQ_T6fYGRK0wwnpXyoUeeQuKgf9Cqo6w&h=AT2rhee5uXIIv_G3VoaCIl0nTLuFiogOU9xRNc1cIYUwNmuzNRcMsjZIY4bpBPDgh5O_5bGPqKg4eaMhJGcqkE1DUqCEkHLKUznrydBkUpKBhkwirdv-tP1BjL8dhOZyBoUqRxskxUn4q_M2EAm2MQW_cFDd8xQtZudAcYNUuMHrasVehVzCaKUGwF8M5-IqyXTVtMl5_RgexGT_EPQIUlWvXeusxYW5MBZTF1MN12bhW7mEGYRI2Ed8chVChD3mlFIxi2lrvC1E7-eC8IsPPfIqT_1KrZjQbFyY5Oi7AZpaAS9KdTZ04Az8g2blhZUCqvGe0lZJjVgS8AmIQ853vKjw3JmYy6L22Ym5rfimds2FzXTLM_JwgZn0VVdjnOpavVcOCqugEOoCWBAjzQXeg8u_Pe4E3LdoPzrHXEFmLUrdgjPmcMmMw7G55glOQdlXJXBfF3wG9ht3eBVTG1Z1WMJOP17dJiIz_7Cz23xWY971Mb6baxTNIBdSkTjFNSQ3QeZcd2Qi0YHjAZWW0KhfWmgxfMzrEOgrba8hp8hnE1y_eLn7MPe6gvF39hV0oppcOvb4CmoRPBCDiqW-KMoyCtUkFbIXPUbPsJjwuwcpTPmMicGnEYgTR1U2smAL3sylphbCDhuEher">på challonge her</a>.</p>
+          <h4>Metal Slug highscore attack</h4>
+          <p>Gjengen kjører også i gang et highscore attack i Metal Slug med noen fete premier!</p>
+        </div>
+      </div>
+    </div>
   </Layout>
 )
