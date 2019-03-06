@@ -334,6 +334,22 @@ export default () => (
     <div className="green-background container">
       <div className="row">
         <div className="container-illustration">
+          <img src="/static/retrospillmessen-bilde-tetris.jpg" />
+        </div>
+        <div className="info-container">
+          <h3 className="container-header">
+            Classic Tetris World Championship
+          </h3>
+          <h4>Kvalifiser deg til finalen:</h4>
+          <p>I år blir Retrospillmessen ett av ytterst få stoppesteder for den offisielle internasjonale Tetris-turneringen. På lørdagen (22. juni) kjører vi både en proff-turnering hvor du kan vinne en plass i finalen i Classic Tetris World Championship.</p>
+          <p>I tillegg kjører vi en amatørturnering samme dag med fete premier.</p>
+          <p><strong>Påmelding skjer på Retrospillmessen, så husk å møt opp tidlig hvis du vil delta!</strong></p>
+        </div>
+      </div>
+    </div>
+    <div className="green-background container reverse">
+      <div className="row">
+        <div className="container-illustration">
           <img src="/static/retrospillmessen-bilde-ngwt.jpg" />
         </div>
         <div className="info-container">
