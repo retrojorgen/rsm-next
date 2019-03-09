@@ -318,7 +318,7 @@ export default () => (
           </p> 
           <h4>Overnatting:</h4>
           <p> 
-            Planlegger du å bli hele helgen på Retrospillmessen? Da bør du bo på Sandefjords største hotell <a href="https://www.scandichotels.com/hotels/sweden/stockholm/scandic-park?cmpid=ppc_BH2nd&s_kwcid=AL!7589!3!245108001546!e!!g!!scandic%20park%20hotel&gclid=Cj0KCQiAk-7jBRD9ARIsAEy8mh7T1lQ_OpNRNCbNENW6kFf_10SuXkqQkWf-wvtdvfEWiGTRy4xPT2kaAu7GEALw_wcB" target="new_window">Scandic Park</a>, med den beste hotellfrokosten i fylket. <i>Den er seriøst verdt hver krone!</i>
+            Planlegger du å bli hele helgen på Retrospillmessen? Da bør du bo på Sandefjords største hotell <a href="https://www.scandichotels.com/hotels/norway/sandefjord/scandic-park-sandefjord?cmpid=ppc_BH2nd&s_kwcid=AL!7589!3!245108004177!e!!g!!scandic%20park%20sandefjord&gclid=Cj0KCQiA5Y3kBRDwARIsAEwloL7XiSEqBJmjYYtjex9GZDkAp00On-AvVXf7jW63AR90H3gjt5dGHc0aArCqEALw_wcB" target="new_window">Scandic Park</a>, med den beste hotellfrokosten i fylket. <i>Den er seriøst verdt hver krone!</i>
             Spesialprisene våre får du <i>kun</i> ved å ringe <a href="tel:33447423">33 44 74 23</a> eller booke via e-postadressen <a href="mailto:meeting.parksandefjord@scandichotels.com">meeting.parksandefjord@scandichotels.com</a>.<br /><br />
             <strong>Priser (inkludert frokost):</strong><br />
              Enkeltrom kr. 875,- pr. døgn<br />
