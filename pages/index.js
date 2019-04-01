@@ -399,9 +399,9 @@ export default () => (
               Scandic Park
             </a>
             , med den beste hotellfrokosten i fylket.
-            <i>Den er seriøst verdt hver krone!</i>. Husk å bestille
-            bestillingskoden BRSM210619 når du bestiller på nett. Spesialprisene
-            våre får du også ved å ringe
+            <i>Den er seriøst verdt hver krone!</i>. Husk å bruke
+            bestillingskoden <strong>BRSM210619</strong> når du bestiller på
+            nett. Spesialprisene våre får du også ved å ringe
             <a href="tel:33447423">33 44 74 23</a> eller booke via
             e-postadressen{" "}
             <a href="mailto:meeting.parksandefjord@scandichotels.com">
