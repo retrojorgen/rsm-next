@@ -387,7 +387,9 @@ export default () => (
             </a>
           </p>
           <h4>Overnatting:</h4>
-          <u>Bestillingskode nett: BRSM210619</u><br><br>
+          <u>Bestillingskode nett: BRSM210619</u>
+          <br />
+          <br />
           <p>
             Planlegger du å bli hele helgen på Retrospillmessen? Da bør du bo på
             Sandefjords største hotell{" "}
@@ -408,7 +410,9 @@ export default () => (
             .<br />
             <br />
             <strong>
-              <u>Bestillingskode nett: BRSM210619</u><br><br>
+              <u>Bestillingskode nett: BRSM210619</u>
+              <br />
+              <br />
             </strong>
             <strong>Priser (inkludert frokost):</strong>
             <br />
