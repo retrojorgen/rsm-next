@@ -387,7 +387,6 @@ export default () => (
             </a>
           </p>
           <h4>Overnatting:</h4>
-          <u>Bestillingskode nett: BRSM210619</u>
           <br />
           <br />
           <p>
@@ -399,9 +398,10 @@ export default () => (
             >
               Scandic Park
             </a>
-            , med den beste hotellfrokosten i fylket.{" "}
-            <i>Den er seriøst verdt hver krone!</i>
-            Spesialprisene våre får du <i>kun</i> ved å ringe{" "}
+            , med den beste hotellfrokosten i fylket.
+            <i>Den er seriøst verdt hver krone!</i>. Husk å bestille
+            bestillingskoden BRSM210619 når du bestiller på nett. Spesialprisene
+            våre får du også ved å ringe
             <a href="tel:33447423">33 44 74 23</a> eller booke via
             e-postadressen{" "}
             <a href="mailto:meeting.parksandefjord@scandichotels.com">
