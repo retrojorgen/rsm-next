@@ -1,6 +1,6 @@
-import Link from "next/link";
-import Layout from "../components/PageLayout.js";
-import Head from "next/head";
+import Link from "next/link"
+import Layout from "../components/PageLayout.js"
+import Head from "next/head"
 
 export default () => (
   <Layout>
@@ -13,96 +13,7 @@ export default () => (
       <meta property="og:url" content="https://www.retrospillmessen.no/" />
     </Head>
     <style jsx>{`
-      @keyframes animateLeft {
-        0% {
-          background-position: 0px 0px;
-        }
-        100% {
-          background-position: -1000px 0px;
-        }
-      }
-      @keyframes appear {
-        0% {
-          transform: scale(0);
-          opacity: 0;
-        }
-        100% {
-          transform: scale(1);
-          opacity: 1;
-        }
-      }
-      @keyframes slidein {
-        0% {
-          transform: translateY(-4px);
-          opacity: 0;
-        }
-        100% {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
-      #frontpage-hero {
-        display: flex;
-        width: 100%;
-        height: 100vh;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 60px 20px;
-        position: relative;
-      }
 
-      #frontpage-hero:before {
-        background: url(/static/top-background.jpg) repeat;
-        background-size: cover;
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        content: "";
-      }
-      #frontpage-hero a {
-        color: white;
-
-      }
-      #frontpage-hero img {
-          max-width: 100%;
-      }
-      #frontpage-hero-logo {
-        width: 600px;
-        animation: appear 1s ease-in-out forwards;
-      }
-      #frontpage-hero-info {
-        color: white;
-        
-        letter-spacing: 1px;
-        text-align: center;
-        opacity: 0;
-        transform: translateY(-4px);
-        animation: slidein 0.4s ease-in-out 0.4s forwards;
-      }
-      #frontpage-hero-info h1 {
-        font-size: 40px;
-        margin: 0;
-        text-shadow: 0 4px 10px rgba(0,0,0,0.6);
-        text-transform: uppercase;
-        margin-top: 20px;
-      }
-      #frontpage-hero-info h2 {
-        margin: 0;
-        color: #f8c90c;
-        text-shadow: 0 4px 10px rgba(0,0,0,0.6);
-        text-transform: uppercase;
-        font-size: 30px;
-      }
-      #frontpage-hero .hero-buttons {
-        margin-top: 40px;
-      }
-
-      #frontpage-hero-info h3 {
-        margin: 0;
-      }
       .button {
         display: inline-block;
         border-radius: 10px;
@@ -170,9 +81,6 @@ export default () => (
         } 
       }
 
-      .container.left .info-container {
-        
-      }
       .info-container p {
         font-size: 16px;
         line-height: 28px;
@@ -250,13 +158,6 @@ export default () => (
           <h3 className="container-header">
             Velkommen til årets største retrofest!
           </h3>
-          <p>
-            For femte år på rad arrangerer vi Retrospillmessen i Runarhallen i
-            Sandefjord. Med rundt 100 spillbare retrokonsoller og maskiner,
-            barneaktiviteter, fantastiske gjester og et stort marked med
-            retrospill og merch er Retrospillmessen et av{" "}
-            <strong>årets største happenings for gamere i alle aldre!</strong>
-          </p>
         </div>
       </div>
     </div>
@@ -495,4 +396,4 @@ export default () => (
       </div>
     </div>
   </Layout>
-);
+)
