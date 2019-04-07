@@ -17,6 +17,8 @@ const TopMenuWrapper = styled.div`
   transform: translateY(-100%);
   transition: all 0.4s ease-in-out;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
   &.sticky {
     background-color: #0a0c55;
   }
@@ -24,9 +26,9 @@ const TopMenuWrapper = styled.div`
     transform: translateY(0);
   }
   .logo {
-    margin-bottom: 0;
     width: 142px;
     flex: 0 0 142px;
+    margin-bottom: 0;
   }
   ul {
     list-style: none;
