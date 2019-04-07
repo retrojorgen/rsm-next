@@ -60,7 +60,7 @@ const TopMenuWrapper = styled.div`
           opacity: 1;
         }
       }
-      :last-child {
+      &:last-child {
         padding-right: 20px;
       }
     }
