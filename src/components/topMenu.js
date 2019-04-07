@@ -13,11 +13,15 @@ const TopMenuWrapper = styled.div`
   position: fixed;
   padding: 10px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   transform: translateY(-100%);
   transition: all 0.4s ease-in-out;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  padding-right: 20px;
+  @media (min-width: 1000px) {
+    justify-content: space-between;
+  }
 
   &.sticky {
     background-color: #0a0c55;
@@ -25,7 +29,13 @@ const TopMenuWrapper = styled.div`
   &.transition-in {
     transform: translateY(0);
   }
-  .logo {
+  #frontpage-hero-logo-wrapper {
+    width: 142px;
+    height: 60px;
+    flex: 0 0 142px;
+    margin-bottom: 0;
+  }
+  #frontpage-hero-logo {
     width: 142px;
     flex: 0 0 142px;
     margin-bottom: 0;
@@ -60,9 +70,6 @@ const TopMenuWrapper = styled.div`
           opacity: 1;
         }
       }
-      &:last-child {
-        padding-right: 20px;
-      }
     }
 
     .regular {
@@ -95,7 +102,7 @@ export default class TopMenu extends React.Component {
     let sticky = this.state.sticky
     return (
       <TopMenuWrapper className={`transition-in ${sticky ? "sticky" : ""}`}>
-        <Link to="/">
+        <Link to="/" id="frontpage-hero-logo-wrapper">
           <img
             id="frontpage-hero-logo"
             alt="logo"
