@@ -47,6 +47,7 @@ const FrontPageHeroWrapper = styled.div`
   &:before {
     background: url(${TopBackground}) repeat;
     background-size: cover;
+    background-position: top center;
     position: absolute;
     left: 0;
     top: 0;
