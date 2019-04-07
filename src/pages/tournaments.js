@@ -26,6 +26,7 @@ const ContentWrap = styled.div`
   width: 800px;
   margin: 0 auto;
   max-width: 100%;
+  padding: 10px;
   p {
   }
 `

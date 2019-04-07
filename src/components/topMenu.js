@@ -24,8 +24,9 @@ const TopMenuWrapper = styled.div`
     transform: translateY(0);
   }
   .logo {
-    height: 60px;
     margin-bottom: 0;
+    width: 142px;
+    flex: 0 0 142px;
   }
   ul {
     list-style: none;
@@ -56,6 +57,9 @@ const TopMenuWrapper = styled.div`
           bottom: 12px;
           opacity: 1;
         }
+      }
+      :last-child {
+        padding-right: 20px;
       }
     }
 

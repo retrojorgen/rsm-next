@@ -78,7 +78,7 @@ const FrontPageHeroWrapper = styled.div`
       text-align: right;
     }
     h1 {
-      font-size: 68px;
+      font-size: 40px;
       margin: 0;
       text-transform: uppercase;
       margin-top: 10px;
@@ -86,12 +86,18 @@ const FrontPageHeroWrapper = styled.div`
       span {
         font-size: 1.06em;
       }
+      @media (min-width: 1000px) {
+        font-size: 68px;
+      }
     }
     h2 {
       margin: 0;
       color: white;
       text-transform: uppercase;
-      font-size: 19px;
+      font-size: 10px;
+      @media (min-width: 1000px) {
+        font-size: 19px;
+      }
     }
     h3 {
       text-align: left;
@@ -99,12 +105,15 @@ const FrontPageHeroWrapper = styled.div`
         border-bottom: 3px solid #fbce00;
         color: #fbce00;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 0px;
         text-align: left;
         display: inline-block;
         padding-left: 10px;
         padding-right: 10px;
         font-weight: bold;
+        @media (min-width: 1000px) {
+          font-size: 12px;
+        }
       }
       margin: 0;
     }
