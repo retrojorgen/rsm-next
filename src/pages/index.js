@@ -10,6 +10,7 @@ import RsmBilde2 from "../images/retrospillmessen-bilde-2.jpg"
 import RsmHotelPhoto from "../images/retrospillmessen-hotell.jpg"
 import TetrisPhoto from "../images/retrospillmessen-bilde-tetris.jpg"
 import NeoGeoWorldTourPhoto from "../images/retrospillmessen-bilde-ngwt.jpg"
+import TopMenu from "../components/topMenu"
 
 import { ThinLinkButton } from "../components/Buttons"
 
@@ -20,6 +21,7 @@ import InfoContainer from "../components/infoContainer"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <TopMenu position="front" />
     <FrontHero />
     <InfoContainer
       illustration={RsmBilde4}

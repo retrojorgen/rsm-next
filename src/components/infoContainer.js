@@ -5,8 +5,6 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #0a0c55 no-repeat;
-  background-size: cover;
   padding-bottom: 20px;
   .row {
     max-width: 1000px;
