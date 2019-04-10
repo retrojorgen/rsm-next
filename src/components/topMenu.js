@@ -46,6 +46,7 @@ const TopMenuWrapper = styled.div`
     margin: 0;
     display: flex;
     align-items: center;
+    padding-right: 20px;
   }
   li {
     position: relative;
