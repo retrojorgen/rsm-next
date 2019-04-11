@@ -15,7 +15,7 @@ const Container = styled.div`
     flex-direction: column;
     @media (min-width: 1000px) {
       flex-direction: row;
-      padding: 60px 40px;
+      padding: 0 40px 60px 40px;
     }
   }
   &.reverse {
