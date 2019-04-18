@@ -99,6 +99,19 @@ const InfoContainer = styled.div`
   }
 `
 
+const FlexWrap = styled.div`
+  max-width: 1260px;
+  margin: 0 auto;
+  @media (min-width: 1240px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .sidemenu {
+    flex: 0 0 240px;
+  }
+`
+
 export default props => {
   return (
     <Container className={`${props.reverse ? "reverse" : ""}`}>
@@ -114,3 +127,5 @@ export default props => {
     </Container>
   )
 }
+
+export { FlexWrap }

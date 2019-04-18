@@ -11,121 +11,19 @@ import RsmHotelPhoto from "../images/retrospillmessen-hotell.jpg"
 import TetrisPhoto from "../images/retrospillmessen-bilde-tetris.jpg"
 import NeoGeoWorldTourPhoto from "../images/retrospillmessen-bilde-ngwt.jpg"
 import TopMenu from "../components/topMenu"
+import SponsorContainer, { MainSponsor } from "../components/sponsorContainer"
 
 import { ThinLinkButton } from "../components/Buttons"
 
 import styled from "styled-components"
 
-import InfoContainer from "../components/infoContainer"
-
-import Background from "../images/whatson-background.jpg"
-
-import ElkjopLogo from "../images/logos/elkjop.svg"
-
-import logoHp from "../images/logos/sized/hp.jpg"
-import logoHpOmen from "../images/logos/sized/hpomen.jpg"
-import logoNeoTokyo from "../images/logos/sized/neotokyo.jpg"
-import logoNerdeportalen from "../images/logos/sized/nerdeportalen.jpg"
-import logoNGWT from "../images/logos/sized/ngwt.jpg"
-import logoAllegro from "../images/logos/sized/allegro.jpg"
-import logoLego from "../images/logos/sized/lego.jpg"
-import logoXbox from "../images/logos/sized/xboxone.jpg"
-import logoPs from "../images/logos/sized/playstation.jpg"
-import logoCapcom from "../images/logos/sized/capcom.jpg"
-import logoActivision from "../images/logos/sized/activision.jpg"
-import logoCarlsen from "../images/logos/sized/carlsenfritsoe.jpg"
-import logoStrand from "../images/logos/sized/strandforlag.jpg"
-import logoAagard from "../images/logos/sized/aagardmusikk.jpg"
-import logoRetro from "../images/logos/sized/retroservice.jpg"
-import logoBk from "../images/logos/sized/bk.jpg"
-import logoTerrahost from "../images/logos/sized/terrahost.jpg"
-import logoRgb from "../images/logos/sized/rgb.jpg"
-
-const SponsorWrapper = styled.div`
-  padding: 40px;
-  text-align: center;
-  p {
-    margin-bottom: 0;
-  }
-  img {
-    width: 400px;
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-`
-
-const LogoWrapper = styled.div`
-  background: url(${Background});
-  background-size: cover;
-  padding: 20px;
-  h3 {
-    span {
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 30px;
-      padding-right: 30px;
-      color: #fbce00;
-      position: relative;
-
-      display: inline-block;
-      @media (min-width: 1240px) {
-        transform: translateY(-32px) translateX(-32px);
-      }
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 1px;
-        height: 3px;
-        width: 100%;
-        background: #fbce00;
-      }
-    }
-  }
-`
-
-const BigLogos = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  img {
-    width: 220px;
-    display: inline-block;
-    margin: 0 20px 20px 20px;
-  }
-  align-items: center;
-  justify-content: center;
-`
-
-const FlexWrap = styled.div`
-  @media (min-width: 1240px) {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-  .sidemenu {
-    flex: 0 0 240px;
-  }
-`
-
-const MediumLogos = styled(BigLogos)`
-  img {
-    width: 90px;
-    margin: 0 0px 10px 0px;
-  }
-  justify-content: space-around;
-`
+import InfoContainer, { FlexWrap } from "../components/infoContainer"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <TopMenu position="front" />
     <FrontHero />
-    <SponsorWrapper>
-      <p>I samarbeid med</p>
-      <a href="https://www.elkjop.no" target="new_window">
-        <img src={ElkjopLogo} />
-      </a>
-    </SponsorWrapper>
     <FlexWrap>
       <div>
         <InfoContainer
@@ -298,35 +196,7 @@ const IndexPage = () => (
           </p>
         </InfoContainer>
       </div>
-      <div className="sidemenu">
-        <LogoWrapper>
-          <h3>
-            <span>Sponsorer</span>
-          </h3>
-          <BigLogos>
-            <img src={logoHp} />
-            <img src={logoHpOmen} />
-            <img src={logoNeoTokyo} />
-            <img src={logoNerdeportalen} />
-            <img src={logoNGWT} />
-            <img src={logoAllegro} />
-          </BigLogos>
-          <MediumLogos>
-            <img src={logoLego} />
-            <img src={logoXbox} />
-            <img src={logoPs} />
-            <img src={logoCapcom} />
-            <img src={logoActivision} />
-            <img src={logoCarlsen} />
-            <img src={logoStrand} />
-            <img src={logoAagard} />
-            <img src={logoRetro} />
-            <img src={logoBk} />
-            <img src={logoTerrahost} />
-            <img src={logoRgb} />
-          </MediumLogos>
-        </LogoWrapper>
-      </div>
+      <SponsorContainer />
     </FlexWrap>
   </Layout>
 )

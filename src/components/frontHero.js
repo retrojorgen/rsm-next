@@ -3,6 +3,7 @@ import styled, { keyframes } from "styled-components"
 import HeroImage from "../images/retrospillmessen-logo.png"
 import TopBackground from "../images/top-background.jpg"
 import { LinkButton } from "./Buttons"
+import bottomBanner from "../images/illustration-hero-min.png"
 
 const AnimateLeft = keyframes`
   0% {
@@ -44,6 +45,7 @@ const FrontPageHeroWrapper = styled.div`
   flex-direction: column;
   padding: 60px 20px;
   position: relative;
+  margin-bottom: 140px;
   &:before {
     background: url(${TopBackground}) repeat;
     background-size: cover;
@@ -54,6 +56,17 @@ const FrontPageHeroWrapper = styled.div`
     width: 100%;
     height: 100%;
     content: "";
+  }
+  #bottom-banner {
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    pointer-events: none;
+    display: none;
+    @media (min-width: 1000px) {
+      display: block;
+    }
   }
   a {
     color: white;
@@ -106,7 +119,7 @@ const FrontPageHeroWrapper = styled.div`
         border-bottom: 3px solid #fbce00;
         color: #fbce00;
         text-transform: uppercase;
-        font-size: 0px;
+        font-size: 8px;
         text-align: left;
         display: inline-block;
         padding-left: 10px;
@@ -148,5 +161,6 @@ export default props => (
         </div>
       </div>
     </div>
+    <img src={bottomBanner} id="bottom-banner" />
   </FrontPageHeroWrapper>
 )
