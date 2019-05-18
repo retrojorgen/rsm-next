@@ -56,6 +56,7 @@ const FrontPageHeroWrapper = styled.div`
     width: 100%;
     height: 100%;
     content: "";
+    filter: hue-rotate(20deg);
   }
   #bottom-banner {
     width: 100%;

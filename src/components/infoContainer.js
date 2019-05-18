@@ -78,6 +78,8 @@ const InfoContainer = styled.div`
     position: relative;
     z-index: 3;
     margin-bottom: 40px;
+    background: ${props => (props.reverse ? "#7c3d92" : "#432383")};
+    color: ${props => (props.reverse ? "#78d4ff" : "white")};
     @media (min-width: 1000px) {
       margin: 0 0 10px -20px;
       text-align: left;
@@ -112,6 +114,30 @@ const FlexWrap = styled.div`
   }
 `
 
+const TopTitle = styled.h1`
+  display: block;
+  border-left: 4px solid #fbce00;
+  color: #fbce00;
+  padding-left: 20px;
+  text-transform: ;
+`
+
+const SectionTitle = styled.h2`
+  display: block;
+  border-left: 4px solid #fbce00;
+  color: #fbce00;
+  padding-left: 20px;
+  text-transform: ;
+`
+
+const SubSectionTitle = styled.h3`
+  display: block;
+  border-left: 4px solid transparent;
+  color: #fbce00;
+  padding-left: 20px;
+  text-transform: ;
+`
+
 export default props => {
   return (
     <Container className={`${props.reverse ? "reverse" : ""}`}>
@@ -119,7 +145,7 @@ export default props => {
         <div className="container-illustration">
           <img src={props.illustration} />
         </div>
-        <InfoContainer>
+        <InfoContainer reverse={props.reverse}>
           <h3 className="container-header">{props.heading}</h3>
           {props.children}
         </InfoContainer>
@@ -128,4 +154,4 @@ export default props => {
   )
 }
 
-export { FlexWrap }
+export { FlexWrap, TopTitle, SectionTitle, SubSectionTitle }

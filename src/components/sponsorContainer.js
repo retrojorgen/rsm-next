@@ -21,7 +21,14 @@ import logoTerrahost from "../images/logos/sized/terrahost.jpg"
 import logoRgb from "../images/logos/sized/rgb.jpg"
 import logoElkjop from "../images/logos/sized/elkjop.jpg"
 import ElkjopLogo from "../images/logos/elkjop.svg"
-import Background from "../images/whatson-background.jpg"
+import logoBjorvikhaugen from "../images/logos/sized/bjorvikhaugen.jpg"
+import logoEgmont from "../images/logos/sized/egmont.jpg"
+import logoFjordenelektro from "../images/logos/sized/fjordenelektro.jpg"
+import logoFuncom from "../images/logos/sized/funcom.jpg"
+import logoHvaltorvet from "../images/logos/sized/hvaltorvet.jpg"
+import logoQvisten from "../images/logos/sized/qvisten.jpg"
+import logoRunarhallen from "../images/logos/sized/runarhallen.jpg"
+import Background from "../images/top-background.jpg"
 
 const SponsorWrapper = styled.div`
   padding: 40px;
@@ -95,7 +102,7 @@ const MainSponsor = () => (
   <SponsorWrapper>
     <p>I samarbeid med</p>
     <a href="https://www.elkjop.no" target="new_window">
-      <img src={ElkjopLogo} />
+      <img src={ElkjopLogo} alt="logo" />
     </a>
   </SponsorWrapper>
 )
@@ -108,69 +115,93 @@ export default () => (
       </h3>
       <BigLogos>
         <a href="https://www.elkjop.no" target="new_window">
-          <img src={logoElkjop} />
+          <img src={logoElkjop} alt="logo" />
         </a>
         <a href="https://www8.hp.com/no/no/home.html" target="new_window">
-          <img src={logoHp} />
+          <img src={logoHp} alt="logo" />
         </a>
         <a
           href="https://www8.hp.com/no/no/campaigns/gamingpcs/overview.html#desktops-tab"
           target="new_window"
         >
-          <img src={logoHpOmen} />
+          <img src={logoHpOmen} alt="logo" />
         </a>
         <a href="https://www.neo-tokyo.no/" target="new_window">
-          <img src={logoNeoTokyo} />
+          <img src={logoNeoTokyo} alt="logo" />
         </a>
         <a href="https://www.nerdeportalen.no/" target="new_window">
-          <img src={logoNerdeportalen} />
+          <img src={logoNerdeportalen} alt="logo" />
         </a>
         <a href="http://www.neogeoworldtour.com/" target="new_window">
-          <img src={logoNGWT} />
+          <img src={logoNGWT} alt="logo" />
         </a>
         <a href="https://www.allegro.no/" target="new_window">
-          <img src={logoAllegro} />
+          <img src={logoAllegro} alt="logo" />
         </a>
       </BigLogos>
       <MediumLogos>
         <a href="https://www.lego.com/nb-no" target="new_window">
-          <img src={logoLego} />
+          <img src={logoLego} alt="logo" />
         </a>
         <a href="https://www.xbox.com/nb-NO" target="new_window">
-          <img src={logoXbox} />
+          <img src={logoXbox} alt="logo" />
         </a>
         <a href="https://www.playstation.com/no-no/" target="new_window">
-          <img src={logoPs} />
+          <img src={logoPs} alt="logo" />
         </a>
         <a href="http://www.capcom-europe.com/" target="new_window">
-          <img src={logoCapcom} />
+          <img src={logoCapcom} alt="logo" />
         </a>
         <a href="https://www.activision.com/" target="new_window">
-          <img src={logoActivision} />
+          <img src={logoActivision} alt="logo" />
         </a>
         <a href="https://www.carlsenfritzoe.no/" target="new_window">
-          <img src={logoCarlsen} />
+          <img src={logoCarlsen} alt="logo" />
         </a>
         <a href="http://www.strandcomics.no/" target="new_window">
-          <img src={logoStrand} />
+          <img src={logoStrand} alt="logo" />
         </a>
         <a href="https://aagaardmusikk.no/" target="new_window">
-          <img src={logoAagard} />
+          <img src={logoAagard} alt="logo" />
         </a>
         <a href="https://www.retroservice.no/" target="new_window">
-          <img src={logoRetro} />
+          <img src={logoRetro} alt="logo" />
         </a>
         <a href="https://bk.no/" target="new_window">
-          <img src={logoBk} />
+          <img src={logoBk} alt="logo" />
         </a>
         <a href="https://terrahost.no/">
-          <img src={logoTerrahost} />
+          <img src={logoTerrahost} alt="logo" />
         </a>
         <a
           href="https://www.facebook.com/groups/RetroGameBrothers/"
           target="new_window"
         >
-          <img src={logoRgb} />
+          <img src={logoRgb} alt="logo" />
+        </a>
+        <a
+          href="https://www.fargerike.no/fargehandel/sandefjord/"
+          target="new_window"
+        >
+          <img src={logoBjorvikhaugen} alt="logo" />
+        </a>
+        <a href="https://www.egmont.no" target="new_window">
+          <img src={logoEgmont} alt="logo" />
+        </a>
+        <a href="https://www.fjordenelektro.no" target="new_window">
+          <img src={logoFjordenelektro} alt="logo" />
+        </a>
+        <a href="https://www.funcom.com" target="new_window">
+          <img src={logoFuncom} alt="logo" />
+        </a>
+        <a href="https://www.hvaltorvet.no" target="new_window">
+          <img src={logoHvaltorvet} alt="logo" />
+        </a>
+        <a href="https://www.qvisten.no" target="new_window">
+          <img src={logoQvisten} alt="logo" />
+        </a>
+        <a href="https://www.ilrunar.no" target="new_window">
+          <img src={logoRunarhallen} alt="logo" />
         </a>
       </MediumLogos>
     </LogoWrapper>
