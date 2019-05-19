@@ -105,7 +105,7 @@ export default () => (
         <SectionTitle>Retrospill, salg og utstillig:</SectionTitle>
         <ul>
           <li>
-            <div className="title">Alexander Holt og Snorre</div>
+            <div className="title">Alexander Holth og Sondre Sandvig</div>
             <div className="description">Salg av Retrospill</div>
           </li>
           <li>
@@ -131,10 +131,13 @@ export default () => (
                 href="https://www.facebook.com/groups/RetroGameBrothers/"
                 target="new_window"
               >
-                RGB Brothers (lenke)
+                Retro Game Brothers (lenke)
               </a>
             </div>
-            <div className="description">Salg av Retrospill og utstilling</div>
+            <div className="description">
+              Salg av SNES, SEGA, PSP, PSPVita, PS1, PS2, PS3, PS4, Gamecube,
+              masse håndholdt, Nintendo 64, Nintendo DS, bitte litt NES.
+            </div>
           </li>
           <li>
             <div className="title">Andreas Berg</div>
