@@ -76,7 +76,7 @@ const TopMenuWrapper = styled.div`
     .regular {
       display: block;
       padding: 20px;
-      text-transform: uppercase;
+      font-weight: bold;
       font-size: 16px;
       text-decoration: none;
       white-space: nowrap;
@@ -112,6 +112,11 @@ export default class TopMenu extends React.Component {
           />
         </Link>
         <ul>
+          <li className="border-hover">
+            <Link className="regular" to="english">
+              English
+            </Link>
+          </li>
           <li className="border-hover">
             <Link className="regular" to="schedule">
               Program

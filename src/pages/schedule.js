@@ -99,6 +99,15 @@ export default () => (
           finner panelrommet vårt til høyre for kantina, med inngang nederst til
           venstre i salen.
         </p>
+        <SectionTitle>Offisiell Afterparty Lørdag 22.juni</SectionTitle>
+        <p>
+          For første gang arrangerer vi offisiell afterparty etter messa på
+          lørdag 22. juni. Det foregår på utestedet Fjordfolk i Sandefjord
+          sentrum. Fra 21:00 blir det konsert med David Wise (kjent fra Donkey
+          Kong Country) og venner. Dørene åpner tidligere, så her er det bare å
+          møte opp. Covercharge på 50kr. Utestedet har 18 års grense, men det er
+          lov med barn i følge med voksne frem til konserten er ferdig.{" "}
+        </p>
         <SectionTitle>Panelrommet (foredrag/Q&A) Lørdag 22.juni</SectionTitle>
         <ul>
           <li>

@@ -28,6 +28,7 @@ import logoFuncom from "../images/logos/sized/funcom.jpg"
 import logoHvaltorvet from "../images/logos/sized/hvaltorvet.jpg"
 import logoQvisten from "../images/logos/sized/qvisten.jpg"
 import logoRunarhallen from "../images/logos/sized/runarhallen.jpg"
+import logoDotEmu from "../images/logos/sized/dotemu.jpg"
 import Background from "../images/top-background.jpg"
 
 const SponsorWrapper = styled.div`
@@ -202,6 +203,9 @@ export default () => (
         </a>
         <a href="https://www.ilrunar.no" target="new_window">
           <img src={logoRunarhallen} alt="logo" />
+        </a>
+        <a href="http://www.dotemu.com/" target="new_window">
+          <img src={logoDotEmu} alt="logo" />
         </a>
       </MediumLogos>
     </LogoWrapper>
