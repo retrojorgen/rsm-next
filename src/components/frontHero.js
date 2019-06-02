@@ -88,6 +88,8 @@ const FrontPageHeroWrapper = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    position: relative;
+    z-index: 2;
     #frontpage-hero-info-container {
       max-width: 600px;
       text-align: right;

@@ -113,8 +113,13 @@ export default class TopMenu extends React.Component {
         </Link>
         <ul>
           <li className="border-hover">
+            <Link className="regular" to="schedule">
+              Program
+            </Link>
+          </li>
+          <li className="border-hover">
             <Link className="regular" to="whats-on">
-              Hva skjer
+              Om messa
             </Link>
           </li>
           <li className="border-hover">
