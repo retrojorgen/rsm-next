@@ -118,7 +118,8 @@ export default () => (
             <div className="description">
               Kevin Bayliss startet som grafisk designer i Rare i 1987. Han har
               blant annet designet karakterene fra Donkey Kong Country,
-              Battletoads og Killer Instict.
+              Battletoads og Killer Instict. De er sistnevnte han er mest kjent
+              for. Senere har han vært med på blant annet Yooka Laylee.
             </div>
           </li>
           <li>
