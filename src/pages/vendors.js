@@ -202,6 +202,10 @@ export default () => (
             <div className="description" />
           </li>
           <li>
+            <div className="title">ConArt</div>
+            <div className="description" />
+          </li>
+          <li>
             <div className="title">Detch Chan Art</div>
             <div className="description" />
           </li>

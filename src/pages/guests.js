@@ -19,6 +19,7 @@ import guestShawnPile from "../images/guests/shawnpile.jpg"
 import guestTheRetroHour from "../images/guests/theretrohour.jpg"
 import guestDavidDoak from "../images/guests/daviddoak.jpg"
 import guestSlopesGameRoom from "../images/guests/slopesgameroom.jpg"
+import guestKevinBayliss from "../images/guests/kevinbayliss.jpg"
 
 import { ThinLinkButton } from "../components/Buttons"
 
@@ -107,6 +108,17 @@ export default () => (
               spill som BattleToads, Donkey Kong Country-serien og nyere spill
               som Yokaa-Laylee. David har alltid med seg saxofonen på tur, og er
               kjent for å fremføre en og annen snutt fra sine kjente spill.
+            </div>
+          </li>
+          <li>
+            <img src={guestKevinBayliss} alt="" className="guest-image" />
+            <div className="title">
+              Kevin Bayliss <span className="date">lørdag / søndag</span>
+            </div>
+            <div className="description">
+              Kevin Bayliss startet som grafisk designer i Rare i 1987. Han har
+              blant annet designet karakterene fra Donkey Kong Country,
+              Battletoads og Killer Instict.
             </div>
           </li>
           <li>
