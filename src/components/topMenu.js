@@ -157,6 +157,11 @@ export default class TopMenu extends React.Component {
               Kontakt oss
             </Link>
           </li>
+          <li className="border-hover">
+            <Link className="regular" to="press">
+              Presse
+            </Link>
+          </li>
           <li>
             <ThinLinkButton href="https://retrospillmessen.hoopla.no/sales/3529925231?fbclid=IwAR0uJxsyIVkyekNcAo-mjQY9zfhPmq0u3fURqpbA9DasnECRY0gQO4kZDBs">
               billetter

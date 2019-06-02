@@ -79,7 +79,7 @@ export default () => (
         </p>
         <p>
           Du kan melde deg på turneringene{" "}
-          <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fchallonge.com%2Fevents%2Fngwt2norway%3Ffbclid%3DIwAR1Zmx5Tac2o-uWIE3OgKUJVeyMAQ_T6fYGRK0wwnpXyoUeeQuKgf9Cqo6w&h=AT2rhee5uXIIv_G3VoaCIl0nTLuFiogOU9xRNc1cIYUwNmuzNRcMsjZIY4bpBPDgh5O_5bGPqKg4eaMhJGcqkE1DUqCEkHLKUznrydBkUpKBhkwirdv-tP1BjL8dhOZyBoUqRxskxUn4q_M2EAm2MQW_cFDd8xQtZudAcYNUuMHrasVehVzCaKUGwF8M5-IqyXTVtMl5_RgexGT_EPQIUlWvXeusxYW5MBZTF1MN12bhW7mEGYRI2Ed8chVChD3mlFIxi2lrvC1E7-eC8IsPPfIqT_1KrZjQbFyY5Oi7AZpaAS9KdTZ04Az8g2blhZUCqvGe0lZJjVgS8AmIQ853vKjw3JmYy6L22Ym5rfimds2FzXTLM_JwgZn0VVdjnOpavVcOCqugEOoCWBAjzQXeg8u_Pe4E3LdoPzrHXEFmLUrdgjPmcMmMw7G55glOQdlXJXBfF3wG9ht3eBVTG1Z1WMJOP17dJiIz_7Cz23xWY971Mb6baxTNIBdSkTjFNSQ3QeZcd2Qi0YHjAZWW0KhfWmgxfMzrEOgrba8hp8hnE1y_eLn7MPe6gvF39hV0oppcOvb4CmoRPBCDiqW-KMoyCtUkFbIXPUbPsJjwuwcpTPmMicGnEYgTR1U2smAL3sylphbCDhuEher">
+          <a href="https://challonge.com/events/ngwt2norway/">
             på challonge her
           </a>
           .
