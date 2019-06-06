@@ -85,7 +85,10 @@ const SubSectionTitle = styled.h3`
 
 export default () => (
   <Layout>
-    <SEO title="Utstillere" keywords={[`boder`, `marked`, `utstilling`]} />
+    <SEO
+      title="Program"
+      keywords={[`timeplan`, `tider`, `tider retrospillmessen`]}
+    />
     <TopMenu position="front" />
     <PageWrap background={Background}>
       <ContentWrap>
@@ -99,7 +102,13 @@ export default () => (
           finner panelrommet vårt til høyre for kantina, med inngang nederst til
           venstre i salen.
         </p>
-        <SectionTitle>Offisiell Afterparty Lørdag 22.juni</SectionTitle>
+        <SectionTitle>Show med Øisteins Blyant, Lørdag 22.juni</SectionTitle>
+        <p>
+          Øisteins blyant holder tegneshow for barn og voksne i hallen på lørdag
+          kl: 11:45 og 15:00. Her blir det garantert mye folk, så møt opp i god
+          tid!
+        </p>
+        <SectionTitle>Offisiell Afterparty, Lørdag 22.juni</SectionTitle>
         <p>
           For første gang arrangerer vi offisiell afterparty etter messa på
           lørdag 22. juni. Det foregår på utestedet Fjordfolk i Sandefjord
@@ -239,9 +248,8 @@ export default () => (
               youtuber (In English)
             </div>
             <div className="description">
-              The creators of Slopes Game Room, Zeltik, Dr. Wily and
-              Commonwealth Realm talk about how they are making money from
-              YouTube.
+              The creators of Slopes Game Room, Dr. Wily and Commonwealth Realm
+              talk about how they are making money from YouTube.
             </div>
           </li>
         </ul>

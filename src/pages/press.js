@@ -41,7 +41,7 @@ const TopTitle = styled.h1`
 export default () => (
   <Layout>
     <SEO
-      title="Kontakt oss"
+      title="Presseinformasjon"
       keywords={[`telefonnummer`, `e-postadresse`, `email`]}
     />
     <TopMenu position="front" />

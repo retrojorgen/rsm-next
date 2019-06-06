@@ -237,10 +237,8 @@ export default () => (
             <div className="description" />
           </li>
           <li>
-            <div className="title">D-Pad Studios</div>
-            <div className="description">
-              Stiller ut spillet Vikings on Trampolines
-            </div>
+            <div className="title">PUNY Games</div>
+            <div className="description">Rival Racer</div>
           </li>
           <li>
             <div className="title">HP - MineCraft konkurranse</div>
