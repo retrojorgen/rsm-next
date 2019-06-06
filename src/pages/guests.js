@@ -20,6 +20,7 @@ import guestTheRetroHour from "../images/guests/theretrohour.jpg"
 import guestDavidDoak from "../images/guests/daviddoak.jpg"
 import guestSlopesGameRoom from "../images/guests/slopesgameroom.jpg"
 import guestKevinBayliss from "../images/guests/kevinbayliss.jpg"
+import guestNerdelandslaget from "../images/guests/nerdelandslaget.jpg"
 
 import { ThinLinkButton } from "../components/Buttons"
 
@@ -97,6 +98,18 @@ export default () => (
 
         <SectionTitle>Retro:</SectionTitle>
         <ul>
+          <li>
+            <img src={guestNerdelandslaget} alt="" className="guest-image" />
+            <div className="title">
+              Nerdelandslaget med Stian Blipp og Andreas Hedemann{" "}
+              <span className="date">Kun søndag</span>
+            </div>
+            <div className="description">
+              Den nye podcasten Nerdelandslaget med Stian Blipp og Andreas
+              Hedemann kommer til oss på søndag for å holde live podcast. Kl:
+              12:00 braker det løs på panelrommet.
+            </div>
+          </li>
           <li>
             <img src={guestDavidWise} alt="" className="guest-image" />
             <div className="title">
