@@ -19,6 +19,9 @@ import styled from "styled-components"
 
 import InfoContainer, { FlexWrap } from "../components/infoContainer"
 
+import guestOistein from "../images/guests/oisteinsblyant.jpg"
+import guestNerdelandslaget from "../images/guests/nerdelandslaget.jpg"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -26,6 +29,53 @@ const IndexPage = () => (
     <FrontHero />
     <FlexWrap>
       <div>
+        <h2>Ikke gå glipp av:</h2>
+        <div class="quick-info">
+          <div class="block image">
+            <div class="image">
+              <img src={guestOistein} />
+            </div>
+            <p>Tegneshow med Oisteins Blyant, KUN lørdag 22. juni.</p>
+            <p>Kl 11:45 og 15:00 i hovedsalen.</p>
+          </div>
+          <div class="block image">
+            <div class="image">
+              <img src={guestNerdelandslaget} />
+            </div>
+            <p>
+              Live podcast med Stian Blipp fra Idol og Senkveld og Andreas
+              Hedemann.
+            </p>
+            <p>Kl 12:00 - 13:00 i panelrommet.</p>
+          </div>
+        </div>
+        <h2>Hurtig-info:</h2>
+        <div class="quick-info">
+          <div class="block">
+            <p>Adresse: Runarhallen, Klavenesveien 1, 3220 Sandefjord</p>
+          </div>
+          <div class="block">
+            <p>Åpningstider:</p>
+            <ul>
+              <li>Lørdag 22. juni: 10:00-18:00</li>
+              <li>Søndag 23. juni: 10:00-18:00</li>
+            </ul>
+          </div>
+          <div class="block">
+            <p>Billettpriser i døren (20 kr påslag):</p>
+            <ul>
+              <li>Helgepass: voksen: 369,- barn: 169,-</li>
+              <li>Dagspass: voksen: 219,- barn: 119,-</li>
+            </ul>
+          </div>
+          <div class="block">
+            <p>Billettpriser på nett:</p>
+            <ul>
+              <li>Helgepass: voksen: 349,- barn: 149,-</li>
+              <li>Dagspass: voksen: 199,- barn: 99,-</li>
+            </ul>
+          </div>
+        </div>
         <InfoContainer
           illustration={RsmBilde4}
           heading="Velkommen til årets største retrofest!"
@@ -98,13 +148,18 @@ const IndexPage = () => (
             <strong>2. Helgepass:</strong>
             <br />
             Disse billettene gir adgang til Retrospillmessen både lørdag og
-            søndag.
+            søndag. Vi gjør oppmerksom på at det er et påslag på 20 kr ved kjøp
+            i døra.
             <br />
             <strong>
               Voksen: 349,-
               <br /> barn: 149,-
             </strong>
             <br />
+            <strong>
+              Voksen i døra: 369,-
+              <br /> barn i døra: 169,-
+            </strong>
             <ThinLinkButton
               className="button thin"
               href="https://retrospillmessen.hoopla.no/sales/3529925231?fbclid=IwAR0uJxsyIVkyekNcAo-mjQY9zfhPmq0u3fURqpbA9DasnECRY0gQO4kZDBs"
@@ -118,11 +173,16 @@ const IndexPage = () => (
             <strong>3. Dagspass:</strong>
             <br />
             Gir adgang til Retrospillmessen enten lørdag eller søndag. Husk
-            velge riktig dato i menyen
+            velge riktig dato i menyen. Vi gjør oppmerksom på at kjøp i døra har
+            et påslag på 20 kr.
             <br />
             <strong>
               Voksen: 199,-
               <br /> barn: 99,-
+            </strong>
+            <strong>
+              Voksen i døra: 219,-
+              <br /> barn i døra: 119,-
             </strong>
             <br />
             <ThinLinkButton

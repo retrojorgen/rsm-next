@@ -39,13 +39,18 @@ const Slidein = keyframes`
 const FrontPageHeroWrapper = styled.div`
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 60px 20px;
+  padding: 100px 20px 40px 20px;
   position: relative;
-  margin-bottom: 140px;
+  margin-bottom: 20px;
+  @media (min-width: 1000px) {
+    height: 100vh;
+    padding: 60px 20px;
+    margin-bottom: 140px;
+  }
   &:before {
     background: url(${TopBackground}) repeat;
     background-size: cover;

@@ -70,8 +70,8 @@ export default () => (
         <p>
           I fjor fikk vi besøk av Neo Geo-gjengen for første gang, og nå kommer
           de tilbake med en ny turnering. På lørdag (22. juni) skal det kjempes
-          om finaleplass i Neo Geo World Championship i Hong Kong. Du kan vinne
-          en plass på Retrospillmessen!
+          om finaleplass i Neo Geo World Championship i Taipei, Taiwan. Du kan
+          vinne en plass på Retrospillmessen!
         </p>
         <p>
           Det vil foregå to turneringer; en i spillet King of Fighters 98

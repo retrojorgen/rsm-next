@@ -112,6 +112,35 @@ const FlexWrap = styled.div`
   .sidemenu {
     flex: 0 0 240px;
   }
+  div h2 {
+    padding: 10px 20px;
+  }
+  .quick-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;
+    .block {
+      width: 40%;
+      margin: 10px;
+      padding: 10px;
+      background-color: #111484;
+      &.image {
+        img {
+          width: 100%;
+          margin-bottom: 10px;
+          display: block;
+        }
+        p {
+          margin-bottom: 0;
+          padding-left: 10px;
+        }
+      }
+      p {
+        font-weight: bold;
+      }
+    }
+  }
 `
 
 const TopTitle = styled.h1`
