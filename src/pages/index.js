@@ -74,6 +74,15 @@ const IndexPage = () => (
               <li>Helgepass: voksen: 349,- barn: 149,-</li>
               <li>Dagspass: voksen: 199,- barn: 99,-</li>
             </ul>
+            <ThinLinkButton
+              className="button thin"
+              href="https://retrospillmessen.hoopla.no/sales/3529925231?fbclid=IwAR0uJxsyIVkyekNcAo-mjQY9zfhPmq0u3fURqpbA9DasnECRY0gQO4kZDBs"
+              target="_blank"
+              id="buy-tickets-early-bird"
+            >
+              Kjøp
+            </ThinLinkButton>
+            <p>Du slipper raskere inn med forhåndskjøpte billetter</p>
           </div>
         </div>
         <InfoContainer
