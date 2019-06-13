@@ -161,7 +161,7 @@ export default () => (
           </li>
           <li>
             <div className="title">
-              <time>16:30 - 17:15</time> - Strand Comics (På norsk)
+              <time>16:30 - 17:30</time> - Strand Comics (På norsk)
             </div>
             <div className="description">
               Drømmer du om å bli tegneserieskaper? Tegneren bak Hjalmar, Nils
@@ -172,12 +172,7 @@ export default () => (
           </li>
           <li>
             <div className="title">
-              <time>17:30 - 18:30</time> - Premiere of secret documentary (In
-              English)
-            </div>
-            <div className="description">
-              We are premiering a brand new documentary, with unique footage.
-              You don't want to miss this.
+              Dokumentaren har dessverre utgått fra programet.
             </div>
           </li>
         </ul>
