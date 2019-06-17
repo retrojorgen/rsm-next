@@ -241,6 +241,14 @@ export default () => (
             <div className="description">Rival Racer</div>
           </li>
           <li>
+            <div className="title">HP - stand / gaming / green screen</div>
+            <div className="description">
+              Prøv cutting edge Omen gamingutstyr! Standen har også en stor
+              green screen hvor du kan ta bilde av deg selv i et klassisk
+              spillcover, og få det skrevet ut på poster.
+            </div>
+          </li>
+          <li>
             <div className="title">HP - MineCraft konkurranse</div>
             <div className="description">
               HP leverer maskiner til Minecraft-konkurranser på
