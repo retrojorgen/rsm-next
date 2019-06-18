@@ -7,6 +7,7 @@ import Photo from "../images/retrospillmessen-hotell.jpg"
 import Background from "../images/tournament-background.jpg"
 import TetrisPhoto from "../images/retrospillmessen-bilde-tetris.jpg"
 import NeoGeoWorldTourPhoto from "../images/retrospillmessen-bilde-ngwt.jpg"
+import DanseNM from "../images/retrospillmessen-bilde-dansenm.jpg"
 import TopMenu from "../components/topMenu"
 
 import { ThinLinkButton } from "../components/Buttons"
@@ -110,6 +111,27 @@ export default () => (
             Påmelding skjer på Retrospillmessen, så husk å møt opp tidlig hvis
             du vil delta!
           </strong>
+        </p>
+      </InfoContainer>
+      <InfoContainer
+        illustration={TetrisPhoto}
+        reverse={false}
+        heading="Classic Tetris World Championship"
+      >
+        <h4>Uoffisielt dansemaskin-NM for nybegynnere og proffe</h4>
+        <p>
+          Bli med i uoffisielt dansemaskin-NM!
+          <br />
+          <br />
+          På søndag 23. juni arranger vi turnering for nybegynnere og proffe
+          🕺💃 Turneringen starter søndag 12:00, med påmelding senest 11:30, så
+          møt opp tidlig :)
+        </p>
+        <p>
+          PS: Har du lyst til å øve, eller finne ut hvor god du er? Maskinene er
+          spillbare for alle hele lørdag, og mye av søndag. Maskinene er gøy for
+          barn og voksne i alle aldre! * Turneringen vil foregå på Dancing Stage
+          Euromix 2 * bildet er fra Retrospillmessen 2018
         </p>
       </InfoContainer>
     </PageWrap>

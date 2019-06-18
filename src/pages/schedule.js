@@ -117,6 +117,11 @@ export default () => (
           møte opp. Covercharge på 50kr. Utestedet har 18 års grense, men det er
           lov med barn i følge med voksne frem til konserten er ferdig.{" "}
         </p>
+        <SectionTitle>Uoffisielt dansemaskin NM, Søndag 23.juni</SectionTitle>
+        <p>
+          Begynner 12:00, påmelding senest 11:30. For både nbegynnere og proffe!
+          Maskinene er tilgjengelig for øving hele lørdag og deler av søndag.
+        </p>
         <SectionTitle>Panelrommet (foredrag/Q&A) Lørdag 22.juni</SectionTitle>
         <ul>
           <li>
