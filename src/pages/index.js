@@ -57,8 +57,8 @@ const IndexPage = () => (
           <div class="block">
             <p>Åpningstider:</p>
             <ul>
-              <li>Lørdag 22. juni: 10:00-18:00</li>
-              <li>Søndag 23. juni: 10:00-18:00</li>
+              <li>Lørdag 22. juni: 10:00-18:00 (09:00 med VIP-billett)</li>
+              <li>Søndag 23. juni: 10:00-18:00 (09:00 med VIP-billett)</li>
             </ul>
           </div>
           <div class="block">
