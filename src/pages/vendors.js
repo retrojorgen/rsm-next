@@ -166,12 +166,21 @@ export default () => (
               mer!
             </div>
           </li>
+
           <li>
             <div className="title">Nerdeportalen</div>
             <div className="description">
               Selger t-skjorter, gensere og kopper fra kjente tegneserier og
               filmer
             </div>
+          </li>
+          <li>
+            <div className="title">Widing Toys</div>
+            <div className="description">Selger retroleker</div>
+          </li>
+          <li>
+            <div className="title">Jon Haarr</div>
+            <div className="description">Selger retroleker</div>
           </li>
           <li>
             <div className="title">Erik Torstensen</div>
