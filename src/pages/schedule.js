@@ -169,10 +169,10 @@ export default () => (
               <time>16:30 - 17:30</time> - Strand Comics (På norsk)
             </div>
             <div className="description">
-              Drømmer du om å bli tegneserieskaper? Tegneren bak Hjalmar, Nils
-              Axle Kanten, og Tore Strand Olsen, kjent fra tegneserien Ørn Bjørn
-              og Jørn i Pyton forteller om deres erfaringer i
-              tegneseriebransjen.
+              Drømmer du om å bli tegneserieskaper? Tore Strand Olsen, kjent fra
+              tegneserien Ørn Bjørn og Jørn i Pyton, og evt gjester, forteller
+              om erfaringer i tegneseriebransjen. [OBS! Nils Axle Kanten har
+              måttet avlyse grunnet sykdom]
             </div>
           </li>
           <li>

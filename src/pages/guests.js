@@ -270,14 +270,11 @@ export default () => (
           <li>
             <img src={guestNilsaxlekanten} alt="" className="guest-image" />
             <div className="title">
-              Nils Axle Kanten (tegneserien Hjalmar){" "}
+              [AVLYST] Nils Axle Kanten (tegneserien Hjalmar){" "}
               <span className="date">lørdag / søndag</span>
             </div>
             <div className="description">
-              Nils Axle Kanten har laget tegnestripen Hjalmar i en årrekke, og
-              trykkes i både Pondus og VG. Tidligere jobbet Nils Axle på blant
-              annet Elias-filmene, Trolljegeren og Fatso som animatør og
-              illustratør. Han lager også stripen Firekanta.
+              Nils Axle Kanten har måttet avlyse pga sykdom.
             </div>
           </li>
           <li>
