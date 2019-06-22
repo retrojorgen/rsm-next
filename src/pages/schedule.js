@@ -166,13 +166,14 @@ export default () => (
           </li>
           <li>
             <div className="title">
-              <time>16:30 - 17:30</time> - Strand Comics (På norsk)
+              <time>16:30 - 17:30</time> - Tore Strand Olsen forteller om
+              tegneserier (På norsk)
             </div>
             <div className="description">
               Drømmer du om å bli tegneserieskaper? Tore Strand Olsen, kjent fra
-              tegneserien Ørn Bjørn og Jørn i Pyton, og evt gjester, forteller
-              om erfaringer i tegneseriebransjen. [OBS! Nils Axle Kanten har
-              måttet avlyse grunnet sykdom]
+              tegneserien Ørn Bjørn og Jørn i Pyton, forteller om erfaringer i
+              tegneseriebransjen. [OBS! Nils Axle Kanten har måttet avlyse
+              grunnet sykdom]
             </div>
           </li>
           <li>
